@@ -1,0 +1,652 @@
+{
+    "name": "mario",
+    "width": 16,
+    "height": 16,
+    "pixels": [
+        {
+            "row": 1,
+            "col": 3,
+            "color": "#FF0000"
+        },
+        {
+            "row": 1,
+            "col": 4,
+            "color": "#FF0000"
+        },
+        {
+            "row": 1,
+            "col": 5,
+            "color": "#FF0000"
+        },
+        {
+            "row": 1,
+            "col": 6,
+            "color": "#FF0000"
+        },
+        {
+            "row": 1,
+            "col": 7,
+            "color": "#FF0000"
+        },
+        {
+            "row": 2,
+            "col": 2,
+            "color": "#FF0000"
+        },
+        {
+            "row": 2,
+            "col": 3,
+            "color": "#FF0000"
+        },
+        {
+            "row": 2,
+            "col": 4,
+            "color": "#FF0000"
+        },
+        {
+            "row": 2,
+            "col": 5,
+            "color": "#FF0000"
+        },
+        {
+            "row": 2,
+            "col": 6,
+            "color": "#FF0000"
+        },
+        {
+            "row": 2,
+            "col": 7,
+            "color": "#FF0000"
+        },
+        {
+            "row": 2,
+            "col": 8,
+            "color": "#FF0000"
+        },
+        {
+            "row": 3,
+            "col": 2,
+            "color": "#8B4513"
+        },
+        {
+            "row": 3,
+            "col": 3,
+            "color": "#8B4513"
+        },
+        {
+            "row": 3,
+            "col": 5,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 3,
+            "col": 6,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 3,
+            "col": 7,
+            "color": "#8B4513"
+        },
+        {
+            "row": 3,
+            "col": 8,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 4,
+            "col": 1,
+            "color": "#8B4513"
+        },
+        {
+            "row": 4,
+            "col": 3,
+            "color": "#8B4513"
+        },
+        {
+            "row": 4,
+            "col": 5,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 4,
+            "col": 6,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 4,
+            "col": 7,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 4,
+            "col": 8,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 4,
+            "col": 9,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 4,
+            "col": 10,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 5,
+            "col": 1,
+            "color": "#8B4513"
+        },
+        {
+            "row": 5,
+            "col": 3,
+            "color": "#8B4513"
+        },
+        {
+            "row": 5,
+            "col": 4,
+            "color": "#8B4513"
+        },
+        {
+            "row": 5,
+            "col": 5,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 5,
+            "col": 6,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 5,
+            "col": 7,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 5,
+            "col": 8,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 5,
+            "col": 9,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 5,
+            "col": 10,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 6,
+            "col": 1,
+            "color": "#8B4513"
+        },
+        {
+            "row": 6,
+            "col": 2,
+            "color": "#8B4513"
+        },
+        {
+            "row": 6,
+            "col": 5,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 6,
+            "col": 6,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 6,
+            "col": 7,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 6,
+            "col": 8,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 6,
+            "col": 9,
+            "color": "#8B4513"
+        },
+        {
+            "row": 6,
+            "col": 10,
+            "color": "#8B4513"
+        },
+        {
+            "row": 7,
+            "col": 3,
+            "color": "#FF0000"
+        },
+        {
+            "row": 7,
+            "col": 4,
+            "color": "#FF0000"
+        },
+        {
+            "row": 7,
+            "col": 5,
+            "color": "#0000FF"
+        },
+        {
+            "row": 7,
+            "col": 6,
+            "color": "#FF0000"
+        },
+        {
+            "row": 7,
+            "col": 7,
+            "color": "#FF0000"
+        },
+        {
+            "row": 7,
+            "col": 8,
+            "color": "#0000FF"
+        },
+        {
+            "row": 7,
+            "col": 9,
+            "color": "#FF0000"
+        },
+        {
+            "row": 7,
+            "col": 10,
+            "color": "#FF0000"
+        },
+        {
+            "row": 8,
+            "col": 1,
+            "color": "#FF0000"
+        },
+        {
+            "row": 8,
+            "col": 2,
+            "color": "#FF0000"
+        },
+        {
+            "row": 8,
+            "col": 3,
+            "color": "#FF0000"
+        },
+        {
+            "row": 8,
+            "col": 4,
+            "color": "#0000FF"
+        },
+        {
+            "row": 8,
+            "col": 5,
+            "color": "#FF0000"
+        },
+        {
+            "row": 8,
+            "col": 6,
+            "color": "#FF0000"
+        },
+        {
+            "row": 8,
+            "col": 7,
+            "color": "#0000FF"
+        },
+        {
+            "row": 8,
+            "col": 8,
+            "color": "#FF0000"
+        },
+        {
+            "row": 8,
+            "col": 9,
+            "color": "#FF0000"
+        },
+        {
+            "row": 8,
+            "col": 10,
+            "color": "#FF0000"
+        },
+        {
+            "row": 9,
+            "col": 0,
+            "color": "#FF0000"
+        },
+        {
+            "row": 9,
+            "col": 1,
+            "color": "#FF0000"
+        },
+        {
+            "row": 9,
+            "col": 2,
+            "color": "#FF0000"
+        },
+        {
+            "row": 9,
+            "col": 3,
+            "color": "#FF0000"
+        },
+        {
+            "row": 9,
+            "col": 4,
+            "color": "#0000FF"
+        },
+        {
+            "row": 9,
+            "col": 5,
+            "color": "#0000FF"
+        },
+        {
+            "row": 9,
+            "col": 6,
+            "color": "#0000FF"
+        },
+        {
+            "row": 9,
+            "col": 7,
+            "color": "#0000FF"
+        },
+        {
+            "row": 9,
+            "col": 8,
+            "color": "#FF0000"
+        },
+        {
+            "row": 9,
+            "col": 9,
+            "color": "#FF0000"
+        },
+        {
+            "row": 9,
+            "col": 10,
+            "color": "#FF0000"
+        },
+        {
+            "row": 9,
+            "col": 11,
+            "color": "#FF0000"
+        },
+        {
+            "row": 10,
+            "col": 0,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 10,
+            "col": 1,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 10,
+            "col": 2,
+            "color": "#FF0000"
+        },
+        {
+            "row": 10,
+            "col": 3,
+            "color": "#0000FF"
+        },
+        {
+            "row": 10,
+            "col": 4,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 10,
+            "col": 5,
+            "color": "#0000FF"
+        },
+        {
+            "row": 10,
+            "col": 6,
+            "color": "#0000FF"
+        },
+        {
+            "row": 10,
+            "col": 7,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 10,
+            "col": 8,
+            "color": "#0000FF"
+        },
+        {
+            "row": 10,
+            "col": 9,
+            "color": "#FF0000"
+        },
+        {
+            "row": 10,
+            "col": 10,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 10,
+            "col": 11,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 11,
+            "col": 0,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 11,
+            "col": 1,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 11,
+            "col": 2,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 11,
+            "col": 3,
+            "color": "#0000FF"
+        },
+        {
+            "row": 11,
+            "col": 4,
+            "color": "#0000FF"
+        },
+        {
+            "row": 11,
+            "col": 5,
+            "color": "#0000FF"
+        },
+        {
+            "row": 11,
+            "col": 6,
+            "color": "#0000FF"
+        },
+        {
+            "row": 11,
+            "col": 7,
+            "color": "#0000FF"
+        },
+        {
+            "row": 11,
+            "col": 8,
+            "color": "#0000FF"
+        },
+        {
+            "row": 11,
+            "col": 9,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 11,
+            "col": 10,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 11,
+            "col": 11,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 12,
+            "col": 0,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 12,
+            "col": 1,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 12,
+            "col": 2,
+            "color": "#0000FF"
+        },
+        {
+            "row": 12,
+            "col": 3,
+            "color": "#0000FF"
+        },
+        {
+            "row": 12,
+            "col": 4,
+            "color": "#0000FF"
+        },
+        {
+            "row": 12,
+            "col": 5,
+            "color": "#0000FF"
+        },
+        {
+            "row": 12,
+            "col": 6,
+            "color": "#0000FF"
+        },
+        {
+            "row": 12,
+            "col": 7,
+            "color": "#0000FF"
+        },
+        {
+            "row": 12,
+            "col": 8,
+            "color": "#0000FF"
+        },
+        {
+            "row": 12,
+            "col": 9,
+            "color": "#0000FF"
+        },
+        {
+            "row": 12,
+            "col": 10,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 12,
+            "col": 11,
+            "color": "#FFA07A"
+        },
+        {
+            "row": 13,
+            "col": 2,
+            "color": "#0000FF"
+        },
+        {
+            "row": 13,
+            "col": 3,
+            "color": "#0000FF"
+        },
+        {
+            "row": 13,
+            "col": 4,
+            "color": "#0000FF"
+        },
+        {
+            "row": 13,
+            "col": 7,
+            "color": "#0000FF"
+        },
+        {
+            "row": 13,
+            "col": 8,
+            "color": "#0000FF"
+        },
+        {
+            "row": 13,
+            "col": 9,
+            "color": "#0000FF"
+        },
+        {
+            "row": 14,
+            "col": 1,
+            "color": "#8B4513"
+        },
+        {
+            "row": 14,
+            "col": 2,
+            "color": "#8B4513"
+        },
+        {
+            "row": 14,
+            "col": 3,
+            "color": "#8B4513"
+        },
+        {
+            "row": 14,
+            "col": 8,
+            "color": "#8B4513"
+        },
+        {
+            "row": 14,
+            "col": 9,
+            "color": "#8B4513"
+        },
+        {
+            "row": 14,
+            "col": 10,
+            "color": "#8B4513"
+        },
+        {
+            "row": 15,
+            "col": 0,
+            "color": "#8B4513"
+        },
+        {
+            "row": 15,
+            "col": 1,
+            "color": "#8B4513"
+        },
+        {
+            "row": 15,
+            "col": 2,
+            "color": "#8B4513"
+        },
+        {
+            "row": 15,
+            "col": 3,
+            "color": "#8B4513"
+        },
+        {
+            "row": 15,
+            "col": 8,
+            "color": "#8B4513"
+        },
+        {
+            "row": 15,
+            "col": 9,
+            "color": "#8B4513"
+        },
+        {
+            "row": 15,
+            "col": 10,
+            "color": "#8B4513"
+        },
+        {
+            "row": 15,
+            "col": 11,
+            "color": "#8B4513"
+        }
+    ]
+}

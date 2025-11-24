@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr" target-language="fr" datatype="plaintext" original="file.ext">
+    <body>
+      <trans-unit id="app_title">
+        <source>app_title</source>
+        <target>Éditeur de Pixel Art</target>
+      </trans-unit>
+      <trans-unit id="tools_draw">
+        <source>tools_draw</source>
+        <target>Dessiner</target>
+      </trans-unit>
+      <trans-unit id="tools_eraser">
+        <source>tools_eraser</source>
+        <target>Gomme</target>
+      </trans-unit>
+      <trans-unit id="tools_random">
+        <source>tools_random</source>
+        <target>Aléatoire (Mario)</target>
+      </trans-unit>
+      <trans-unit id="load_preset">
+        <source>load_preset</source>
+        <target>-- Charger un modèle --</target>
+      </trans-unit>
+      <trans-unit id="tools_reset">
+        <source>tools_reset</source>
+        <target>Réinitialiser</target>
+      </trans-unit>
+      <trans-unit id="modal_warning">
+        <source>modal_warning</source>
+        <target>Attention !</target>
+      </trans-unit>
+      <trans-unit id="modal_confirm_text">
+        <source>modal_confirm_text</source>
+        <target>Voulez-vous vraiment tout effacer ? Cette action est irréversible.</target>
+      </trans-unit>
+      <trans-unit id="modal_btn_cancel">
+        <source>modal_btn_cancel</source>
+        <target>Annuler</target>
+      </trans-unit>
+      <trans-unit id="modal_btn_confirm">
+        <source>modal_btn_confirm</source>
+        <target>Oui, tout effacer</target>
+      </trans-unit>
+      <trans-unit id="toast_saved">
+        <source>toast_saved</source>
+        <target>Sauvegarde réussie !</target>
+      </trans-unit>
+      <trans-unit id="footer_made_by">
+        <source>footer_made_by</source>
+        <target>Fait avec 🐸 par district3w.com 2025</target>
+      </trans-unit>
+      <trans-unit id="color_picker_title">
+        <source>color_picker_title</source>
+        <target>Choisir une couleur</target>
+      </trans-unit>
+      <trans-unit id="error_loading">
+        <source>error_loading</source>
+        <target>Erreur lors du chargement du dessin.</target>
+      </trans-unit>
+      <trans-unit id="art_mario">
+        <source>art_mario</source>
+        <target>Mario</target>
+      </trans-unit>
+      <trans-unit id="art_mushroom">
+        <source>art_mushroom</source>
+        <target>Champignon</target>
+      </trans-unit>
+      <trans-unit id="art_heart">
+        <source>art_heart</source>
+        <target>Cœur</target>
+      </trans-unit>
+      <trans-unit id="art_frog">
+        <source>art_frog</source>
+        <target>Grenouille</target>
+      </trans-unit>
+      <trans-unit id="art_star">
+        <source>art_star</source>
+        <target>Étoile</target>
+      </trans-unit>
+      <trans-unit id="art_smiley">
+        <source>art_smiley</source>
+        <target>Smiley</target>
+      </trans-unit>
+      <trans-unit id="art_cat">
+        <source>art_cat</source>
+        <target>Chat</target>
+      </trans-unit>
+      <trans-unit id="art_house">
+        <source>art_house</source>
+        <target>Maison</target>
+      </trans-unit>
+      <trans-unit id="art_tree">
+        <source>art_tree</source>
+        <target>Arbre</target>
+      </trans-unit>
+      <trans-unit id="art_flower">
+        <source>art_flower</source>
+        <target>Fleur</target>
+      </trans-unit>
+      <trans-unit id="art_rocket">
+        <source>art_rocket</source>
+        <target>Fusée</target>
+      </trans-unit>
+      <trans-unit id="art_diamond">
+        <source>art_diamond</source>
+        <target>Diamant</target>
+      </trans-unit>
+      <trans-unit id="art_butterfly">
+        <source>art_butterfly</source>
+        <target>Papillon</target>
+      </trans-unit>
+      <trans-unit id="art_car">
+        <source>art_car</source>
+        <target>Voiture</target>
+      </trans-unit>
+      <trans-unit id="art_fish">
+        <source>art_fish</source>
+        <target>Poisson</target>
+      </trans-unit>
+      <trans-unit id="art_sun">
+        <source>art_sun</source>
+        <target>Soleil</target>
+      </trans-unit>
+      <trans-unit id="art_moon">
+        <source>art_moon</source>
+        <target>Lune</target>
+      </trans-unit>
+      <trans-unit id="art_cloud">
+        <source>art_cloud</source>
+        <target>Nuage</target>
+      </trans-unit>
+      <trans-unit id="art_cup">
+        <source>art_cup</source>
+        <target>Tasse</target>
+      </trans-unit>
+      <trans-unit id="art_apple">
+        <source>art_apple</source>
+        <target>Pomme</target>
+      </trans-unit>
+      <trans-unit id="art_pacman">
+        <source>art_pacman</source>
+        <target>Pacman</target>
+      </trans-unit>
+      <trans-unit id="art_ghost">
+        <source>art_ghost</source>
+        <target>Fantôme</target>
+      </trans-unit>
+      <trans-unit id="art_bomb">
+        <source>art_bomb</source>
+        <target>Bombe</target>
+      </trans-unit>
+      <trans-unit id="art_lightning">
+        <source>art_lightning</source>
+        <target>Éclair</target>
+      </trans-unit>
+      <trans-unit id="art_snowflake">
+        <source>art_snowflake</source>
+        <target>Flocon</target>
+      </trans-unit>
+      <trans-unit id="art_castle">
+        <source>art_castle</source>
+        <target>Château</target>
+      </trans-unit>
+      <trans-unit id="tools_export">
+        <source>tools_export</source>
+        <target>Exporter</target>
+      </trans-unit>
+      <trans-unit id="export_png">
+        <source>export_png</source>
+        <target>Exporter en PNG</target>
+      </trans-unit>
+      <trans-unit id="export_ico">
+        <source>export_ico</source>
+        <target>Exporter en ICO</target>
+      </trans-unit>
+      <trans-unit id="export_json">
+        <source>export_json</source>
+        <target>Exporter en JSON</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

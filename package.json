@@ -1,0 +1,14 @@
+{
+  "name": "pixel-art",
+  "version": "1.0.0",
+  "description": "Pixel Art Editor - DevChallenges Week 47",
+  "scripts": {
+    "build:css": "tailwindcss -i ./assets/styles/app.css.source -o ./assets/styles/app.css --minify",
+    "watch:css": "tailwindcss -i ./assets/styles/app.css.source -o ./assets/styles/app.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1",
+    "@tailwindcss/forms": "^0.5.7"
+  }
+}
+

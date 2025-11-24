@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>🚀</text></svg>">
+        {% block stylesheets %}
+        {% endblock %}
+
+        {% block javascripts %}
+            {% block importmap %}{{ importmap('app') }}{% endblock %}
+        {% endblock %}
+    </head>
+    <body{% if app.request.get('_route') == 'app_pixel_art' %} data-error-loading="{{ 'error_loading'|trans }}"
+          data-load-preset="{{ 'load_preset'|trans }}"
+          data-color-picker-title="{{ 'color_picker_title'|trans }}"
+          data-tools-draw="{{ 'tools_draw'|trans }}"
+          data-tools-eraser="{{ 'tools_eraser'|trans }}"
+          data-tools-random="{{ 'tools_random'|trans }}"
+          data-tools-export="{{ 'tools_export'|trans }}"
+          data-tools-reset="{{ 'tools_reset'|trans }}"
+          data-export-png="{{ 'export_png'|trans }}"
+          data-export-ico="{{ 'export_ico'|trans }}"
+          data-export-json="{{ 'export_json'|trans }}"
+          data-art-translations="{{ {
+              'mario': 'art_mario'|trans,
+              'mushroom': 'art_mushroom'|trans,
+              'heart': 'art_heart'|trans,
+              'frog': 'art_frog'|trans,
+              'star': 'art_star'|trans,
+              'smiley': 'art_smiley'|trans,
+              'cat': 'art_cat'|trans,
+              'house': 'art_house'|trans,
+              'tree': 'art_tree'|trans,
+              'flower': 'art_flower'|trans,
+              'rocket': 'art_rocket'|trans,
+              'diamond': 'art_diamond'|trans,
+              'butterfly': 'art_butterfly'|trans,
+              'car': 'art_car'|trans,
+              'fish': 'art_fish'|trans,
+              'sun': 'art_sun'|trans,
+              'moon': 'art_moon'|trans,
+              'cloud': 'art_cloud'|trans,
+              'cup': 'art_cup'|trans,
+              'apple': 'art_apple'|trans,
+              'pacman': 'art_pacman'|trans,
+              'ghost': 'art_ghost'|trans,
+              'bomb': 'art_bomb'|trans,
+              'lightning': 'art_lightning'|trans,
+              'snowflake': 'art_snowflake'|trans,
+              'castle': 'art_castle'|trans
+          }|json_encode|e('html_attr') }}"{% endif %}>
+        {% block body %}{% endblock %}
+    </body>
+</html>

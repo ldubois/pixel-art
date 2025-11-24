@@ -1,0 +1,217 @@
+{
+    "name": "lightning",
+    "width": 16,
+    "height": 16,
+    "pixels": [
+        {
+            "row": 1,
+            "col": 7,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 1,
+            "col": 8,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 2,
+            "col": 6,
+            "color": "#FFFF99"
+        },
+        {
+            "row": 2,
+            "col": 7,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 2,
+            "col": 8,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 2,
+            "col": 9,
+            "color": "#FFFF99"
+        },
+        {
+            "row": 3,
+            "col": 6,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 3,
+            "col": 7,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 4,
+            "col": 5,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 4,
+            "col": 6,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 4,
+            "col": 7,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 5,
+            "col": 5,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 5,
+            "col": 6,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 5,
+            "col": 7,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 6,
+            "col": 6,
+            "color": "#FFFF99"
+        },
+        {
+            "row": 6,
+            "col": 7,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 6,
+            "col": 8,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 6,
+            "col": 9,
+            "color": "#FFFF99"
+        },
+        {
+            "row": 7,
+            "col": 7,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 7,
+            "col": 8,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 7,
+            "col": 9,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 8,
+            "col": 7,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 8,
+            "col": 8,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 8,
+            "col": 9,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 9,
+            "col": 7,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 9,
+            "col": 8,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 9,
+            "col": 9,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 10,
+            "col": 6,
+            "color": "#FFFF99"
+        },
+        {
+            "row": 10,
+            "col": 7,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 10,
+            "col": 8,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 10,
+            "col": 9,
+            "color": "#FFFF99"
+        },
+        {
+            "row": 11,
+            "col": 6,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 11,
+            "col": 7,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 11,
+            "col": 8,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 12,
+            "col": 5,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 12,
+            "col": 6,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 12,
+            "col": 7,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 13,
+            "col": 5,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 13,
+            "col": 6,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 13,
+            "col": 7,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 14,
+            "col": 6,
+            "color": "#FFFF00"
+        },
+        {
+            "row": 14,
+            "col": 7,
+            "color": "#FFFF00"
+        }
+    ]
+}

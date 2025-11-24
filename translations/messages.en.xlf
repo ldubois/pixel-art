@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr" target-language="en" datatype="plaintext" original="file.ext">
+    <body>
+      <trans-unit id="app_title">
+        <source>app_title</source>
+        <target>Pixel Art Editor</target>
+      </trans-unit>
+      <trans-unit id="tools_draw">
+        <source>tools_draw</source>
+        <target>Draw</target>
+      </trans-unit>
+      <trans-unit id="tools_eraser">
+        <source>tools_eraser</source>
+        <target>Eraser</target>
+      </trans-unit>
+      <trans-unit id="tools_random">
+        <source>tools_random</source>
+        <target>Random (Mario)</target>
+      </trans-unit>
+      <trans-unit id="load_preset">
+        <source>load_preset</source>
+        <target>-- Load Preset --</target>
+      </trans-unit>
+      <trans-unit id="tools_reset">
+        <source>tools_reset</source>
+        <target>Reset</target>
+      </trans-unit>
+      <trans-unit id="modal_warning">
+        <source>modal_warning</source>
+        <target>Warning!</target>
+      </trans-unit>
+      <trans-unit id="modal_confirm_text">
+        <source>modal_confirm_text</source>
+        <target>Do you really want to clear everything? This action is irreversible.</target>
+      </trans-unit>
+      <trans-unit id="modal_btn_cancel">
+        <source>modal_btn_cancel</source>
+        <target>Cancel</target>
+      </trans-unit>
+      <trans-unit id="modal_btn_confirm">
+        <source>modal_btn_confirm</source>
+        <target>Yes, clear all</target>
+      </trans-unit>
+      <trans-unit id="toast_saved">
+        <source>toast_saved</source>
+        <target>Saved successfully!</target>
+      </trans-unit>
+      <trans-unit id="footer_made_by">
+        <source>footer_made_by</source>
+        <target>Made with 🐸 by district3w.com 2025</target>
+      </trans-unit>
+      <trans-unit id="color_picker_title">
+        <source>color_picker_title</source>
+        <target>Choose Color</target>
+      </trans-unit>
+      <trans-unit id="error_loading">
+        <source>error_loading</source>
+        <target>Error loading drawing.</target>
+      </trans-unit>
+      <trans-unit id="art_mario">
+        <source>art_mario</source>
+        <target>Mario</target>
+      </trans-unit>
+      <trans-unit id="art_mushroom">
+        <source>art_mushroom</source>
+        <target>Mushroom</target>
+      </trans-unit>
+      <trans-unit id="art_heart">
+        <source>art_heart</source>
+        <target>Heart</target>
+      </trans-unit>
+      <trans-unit id="art_frog">
+        <source>art_frog</source>
+        <target>Frog</target>
+      </trans-unit>
+      <trans-unit id="art_star">
+        <source>art_star</source>
+        <target>Star</target>
+      </trans-unit>
+      <trans-unit id="art_smiley">
+        <source>art_smiley</source>
+        <target>Smiley</target>
+      </trans-unit>
+      <trans-unit id="art_cat">
+        <source>art_cat</source>
+        <target>Cat</target>
+      </trans-unit>
+      <trans-unit id="art_house">
+        <source>art_house</source>
+        <target>House</target>
+      </trans-unit>
+      <trans-unit id="art_tree">
+        <source>art_tree</source>
+        <target>Tree</target>
+      </trans-unit>
+      <trans-unit id="art_flower">
+        <source>art_flower</source>
+        <target>Flower</target>
+      </trans-unit>
+      <trans-unit id="art_rocket">
+        <source>art_rocket</source>
+        <target>Rocket</target>
+      </trans-unit>
+      <trans-unit id="art_diamond">
+        <source>art_diamond</source>
+        <target>Diamond</target>
+      </trans-unit>
+      <trans-unit id="art_butterfly">
+        <source>art_butterfly</source>
+        <target>Butterfly</target>
+      </trans-unit>
+      <trans-unit id="art_car">
+        <source>art_car</source>
+        <target>Car</target>
+      </trans-unit>
+      <trans-unit id="art_fish">
+        <source>art_fish</source>
+        <target>Fish</target>
+      </trans-unit>
+      <trans-unit id="art_sun">
+        <source>art_sun</source>
+        <target>Sun</target>
+      </trans-unit>
+      <trans-unit id="art_moon">
+        <source>art_moon</source>
+        <target>Moon</target>
+      </trans-unit>
+      <trans-unit id="art_cloud">
+        <source>art_cloud</source>
+        <target>Cloud</target>
+      </trans-unit>
+      <trans-unit id="art_cup">
+        <source>art_cup</source>
+        <target>Cup</target>
+      </trans-unit>
+      <trans-unit id="art_apple">
+        <source>art_apple</source>
+        <target>Apple</target>
+      </trans-unit>
+      <trans-unit id="art_pacman">
+        <source>art_pacman</source>
+        <target>Pacman</target>
+      </trans-unit>
+      <trans-unit id="art_ghost">
+        <source>art_ghost</source>
+        <target>Ghost</target>
+      </trans-unit>
+      <trans-unit id="art_bomb">
+        <source>art_bomb</source>
+        <target>Bomb</target>
+      </trans-unit>
+      <trans-unit id="art_lightning">
+        <source>art_lightning</source>
+        <target>Lightning</target>
+      </trans-unit>
+      <trans-unit id="art_snowflake">
+        <source>art_snowflake</source>
+        <target>Snowflake</target>
+      </trans-unit>
+      <trans-unit id="art_castle">
+        <source>art_castle</source>
+        <target>Castle</target>
+      </trans-unit>
+      <trans-unit id="tools_export">
+        <source>tools_export</source>
+        <target>Export</target>
+      </trans-unit>
+      <trans-unit id="export_png">
+        <source>export_png</source>
+        <target>Export as PNG</target>
+      </trans-unit>
+      <trans-unit id="export_ico">
+        <source>export_ico</source>
+        <target>Export as ICO</target>
+      </trans-unit>
+      <trans-unit id="export_json">
+        <source>export_json</source>
+        <target>Export as JSON</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

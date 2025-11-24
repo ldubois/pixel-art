@@ -1,0 +1,114 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}DevChallenges - {{ 'app_title'|trans }}{% endblock %}
+
+{% block stylesheets %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+{% endblock %}
+
+{% block body %}
+    <!-- Navbar -->
+    <nav class="nav-island">
+        <a href="#" class="nav-logo">
+            <div class="nav-icon">
+                <span class="nav-icon-text">&lt;/&gt;</span>
+            </div>
+            <span class="nav-title"><span class="nav-subtitle">{{ 'app_title'|trans }}</span> DevChallenges <span class="nav-number">N°1</span></span>
+        </a>
+        
+        <div class="nav-actions">
+            <div class="lang-switcher">
+                <a href="{{ path('app_pixel_art', {'lang': 'fr'}) }}" class="{{ app.request.locale == 'fr' ? 'active' : '' }}">FR</a>
+                <a href="{{ path('app_pixel_art', {'lang': 'en'}) }}" class="{{ app.request.locale == 'en' ? 'active' : '' }}">EN</a>
+                <a href="{{ path('app_pixel_art', {'lang': 'es'}) }}" class="{{ app.request.locale == 'es' ? 'active' : '' }}">ES</a>
+            </div>
+            
+            <a href="https://github.com/yoanbernabeu/DevChallenges" target="_blank" class="github-btn hidden sm:inline-flex">
+                <i class="fa-brands fa-github"></i>
+                <span>Star on GitHub</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-wrapper">
+        <div class="app-container from-brand-purple to-brand-pink">
+            <!-- Card Header -->
+            <div class="card-header">
+                <div class="card-title">
+                    <div class="tag-badge">
+                        <span class="tech-badge">Symfony</span>
+                        <span class="tech-badge">PHP</span>
+                        <span class="tech-badge">Tailwind CSS</span>
+                        <span class="tech-badge">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Editor Area -->
+            <div class="editor-area">
+                <div class="controls">
+                    <div class="control-group">
+                        <input type="color" id="color-picker" value="#000000" title="{{ 'color_picker_title'|trans }}">
+                    </div>
+                    
+                    <div class="control-group">
+                        <button id="btn-draw" class="active" title="{{ 'tools_draw'|trans }}"><i class="fa-solid fa-pencil"></i></button>
+                        <button id="btn-eraser" title="{{ 'tools_eraser'|trans }}"><i class="fa-solid fa-eraser"></i></button>
+                    </div>
+
+                    <div class="control-group">
+                        <button id="btn-random" title="{{ 'tools_random'|trans }}"><i class="fa-solid fa-dice"></i></button>
+                        <select id="select-art" title="{{ 'load_preset'|trans }}">
+                            <option value="" id="select-art-placeholder">{{ 'load_preset'|trans }}</option>
+                        </select>
+                    </div>
+
+                    <div class="control-group">
+                        <div class="export-dropdown">
+                            <button id="btn-export" title="{{ 'tools_export'|trans }}"><i class="fa-solid fa-download"></i></button>
+                            <div class="export-menu" id="export-menu">
+                                <button class="export-option" data-format="png"><i class="fa-solid fa-image"></i> {{ 'export_png'|trans }}</button>
+                                <button class="export-option" data-format="ico"><i class="fa-solid fa-file-image"></i> {{ 'export_ico'|trans }}</button>
+                                <button class="export-option" data-format="json"><i class="fa-solid fa-file-code"></i> {{ 'export_json'|trans }}</button>
+                            </div>
+                        </div>
+                        <button id="btn-reset" title="{{ 'tools_reset'|trans }}"><i class="fa-solid fa-trash-can"></i></button>
+                    </div>
+                </div>
+
+                <div id="grid-container">
+                    {% for i in 0..255 %}
+                        <div class="pixel" data-index="{{ i }}"></div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>{{ 'footer_made_by'|trans|raw }} - <a href="https://district3w.com" target="_blank">district3w.com</a> - <a href="https://devchallenges.yoandev.co/" target="_blank">devchallenges.yoandev.co</a></p>
+    </footer>
+
+    <!-- Custom Reset Modal -->
+    <div class="modal-overlay" id="reset-modal">
+        <div class="modal">
+            <h3>{{ 'modal_warning'|trans }}</h3>
+            <p>{{ 'modal_confirm_text'|trans }}</p>
+            <div class="modal-actions">
+                <button id="modal-btn-cancel" class="modal-btn-cancel">{{ 'modal_btn_cancel'|trans }}</button>
+                <button id="modal-btn-confirm" class="modal-btn-confirm">{{ 'modal_btn_confirm'|trans }}</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="save-toast">
+        <span><i class="fa-solid fa-check-circle"></i> {{ 'toast_saved'|trans }}</span>
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {{ importmap('pixel-art') }}
+{% endblock %}
